@@ -1,0 +1,28 @@
+DEPENDENCIES
+  mongodb
+    git: git@github.com:Naila1234/mongo--class-work.git
+    revision: b055d289f59162d35fb4a942d74be15970b39bd6
+  node
+    git: git@github.com:Naila1234/cookbook---node.git
+    revision: b985e1f9418c3b152968e4a8fdbc42f4c85918e4
+
+GRAPH
+  apt (7.2.0)
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  mongodb (0.1.0)
+  node (0.1.0)
+    apt (>= 0.0.0)
+    nodejs (~> 6.0.0)
+  nodejs (6.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 5.0)
+  seven_zip (3.1.1)
+    windows (>= 0.0.0)
+  windows (6.0.0)
